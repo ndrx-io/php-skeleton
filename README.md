@@ -63,7 +63,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-travis]: https://img.shields.io/travis/ndrx-io/:package_name/master.svg?style=flat-square
 [ico-ndrx]: https://pbs.twimg.com/profile_images/585415130881642497/Qg4niE0o.png
 [ico-scrutinizer]: https://scrutinizer-ci.com/g/ndrx-io/:package_name/badges/quality-score.png?b=master
-[ico-coverage]: https://scrutinizer-ci.com/g/ndrx-io/php-skeleton/badges/coverage.png?b=master
+[ico-coverage]: https://scrutinizer-ci.com/g/ndrx-io/:package_name/badges/coverage.png?b=master
 
 
 [link-packagist]: https://packagist.org/packages/ndrx-io/:package_name
