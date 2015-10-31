@@ -10,8 +10,8 @@
     "authors": [
         {
             "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "email": "contact@ndrx.io",
+            "homepage": "http://ndrx.io/fr/",
             "role": "Developer"
         }
     ],
