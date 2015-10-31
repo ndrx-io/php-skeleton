@@ -14,14 +14,14 @@ PSRs you support to avoid any confusion with users and contributors.
 Via Composer
 
 ``` bash
-$ composer require league/:package_name
+$ composer require ndrx-io/:package_name
 ```
 
 ## Usage
 
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+$skeleton = new Ndrx\Skeleton();
+echo $skeleton->echoPhrase('Hello, Ndrx!');
 ```
 
 ## Change log
