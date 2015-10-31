@@ -5,10 +5,12 @@ namespace Ndrx\Skeleton\Test;
 class ExampleTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Test that true does in fact equal true
+     * test of our dummy class
      */
     public function testTrueIsTrue()
     {
-        $this->assertTrue(true);
+        $testTxt = uniqid();
+        $skeleton = new \Ndrx\Skeleton\SkeletonClass();
+		$this->assertEquals($testTxt, $skeleton->echoPhrase($testTxt));
     }
 }

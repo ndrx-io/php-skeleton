@@ -3,6 +3,8 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
+[![Build Status][ico-scutinize]][link-scutinize]
+[![Build Status][ico-coverage]][link-coverage]
 
 
 [![Build Status][ico-ndrx]][link-ndrx]
@@ -23,7 +25,7 @@ $ composer require ndrx-io/:package_name
 ## Usage
 
 ``` php
-$skeleton = new Ndrx\Skeleton();
+$skeleton = new \Ndrx\Skeleton\SkeletonClass();
 echo $skeleton->echoPhrase('Hello, Ndrx!');
 ```
 
@@ -58,6 +60,8 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/ndrx-io/:package_name/master.svg?style=flat-square
 [ico-ndrx]: https://pbs.twimg.com/profile_images/585415130881642497/Qg4niE0o.png
+[ico-scrutinizer]: https://scrutinizer-ci.com/g/ndrx-io/:package_name/badges/quality-score.png?b=master
+[ico-coverage]: https://scrutinizer-ci.com/g/ndrx-io/php-skeleton/badges/coverage.png?b=master
 
 
 [link-packagist]: https://packagist.org/packages/ndrx-io/:package_name
@@ -65,3 +69,5 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-author]: https://github.com/:author_username
 [link-contributors]: ../../contributors
 [link-ndrx]: http://ndrx.io
+[link-scrutinizer]: https://scrutinizer-ci.com/g/ndrx-io/:package_name/
+[link-coverage]: https://scrutinizer-ci.com/g/ndrx-io/:package_name/
